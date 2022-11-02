@@ -2,6 +2,7 @@ connection: "ef-bq"
 
 # include all the views
 include: "/views/**/*.view"
+include: "/dashboards/*.dashboard"
 
 datagroup: eaf_poc_multi_instance_single_repo_default_datagroup {
   # sql_trigger: SELECT MAX(id) FROM etl_log;;
