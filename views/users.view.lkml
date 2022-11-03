@@ -86,6 +86,7 @@ view: users {
 
   measure: count {
     type: count
+    filters: [gender: "Female"]
     drill_fields: [detail*]
   }
 
